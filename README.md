@@ -32,6 +32,7 @@ the terms of the **GNU GPL license**, under which is published this software.
 ### `/src`
 Now, if you don't use CodeBlocks, or you just want the source files, you can find them in the directory `/src`.
 
+
 ##### Important :
 The software uses SDL 1.2 and SDL_Image 1.2, so you will have problems when compiling, whether you're under CodeBlocks or not, you'll have
 to set the proper files (DLLs) in your directory and link to the correspondings `.lib` or `.a`. You can find information about that on

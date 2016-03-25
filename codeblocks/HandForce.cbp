@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="HandForce" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/HandForce" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/HandForce" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add directory="C:/Program Files (x86)/CodeBlocks/SDL-1.2.15/include" />
+		</Compiler>
+		<Linker>
+			<Add library="mingw32" />
+			<Add library="SDLmain" />
+			<Add library="SDL.dll" />
+			<Add library="user32" />
+			<Add library="gdi32" />
+			<Add library="winmm" />
+			<Add library="dxguid" />
+			<Add library="../../../../Program Files (x86)/CodeBlocks/MinGW/lib/libgdi32.a" />
+			<Add library="../../../../Program Files (x86)/CodeBlocks/MinGW/lib/libgdiplus.a" />
+			<Add library="../../../../Program Files (x86)/CodeBlocks/MinGW/lib/SDL_ttf.lib" />
+			<Add library="../../../../Program Files (x86)/CodeBlocks/MinGW/lib/SDL_image.lib" />
+			<Add directory="C:/Program Files (x86)/CodeBlocks/SDL-1.2.15/lib" />
+		</Linker>
+		<Unit filename="CImg.h" />
+		<Unit filename="Card.cpp" />
+		<Unit filename="Card.h" />
+		<Unit filename="Hand.cpp" />
+		<Unit filename="Hand.h" />
+		<Unit filename="Image.cpp" />
+		<Unit filename="Image.h" />
+		<Unit filename="Pixel.cpp" />
+		<Unit filename="Pixel.h" />
+		<Unit filename="Solver.cpp" />
+		<Unit filename="Solver.h" />
+		<Unit filename="icons/icon.ico" />
+		<Unit filename="main.cpp" />
+		<Unit filename="resources.rc">
+			<Option compilerVar="WINDRES" />
+		</Unit>
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

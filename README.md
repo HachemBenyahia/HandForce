@@ -25,9 +25,9 @@ cards in real time and call a function that matches the capture with the real ca
 its value.
 
 ### `/codeblocks`
-As I initially developed the software on the IDE CodeBlocks, this directory contains exactly the same files as my initial directory when
-developing under CodeBlocks. Therefore, if you also use this IDE, you can simply download this directory as it is and resume the development
-from there. Just remember the terms of the **GNU GPL license**, under which is published this software.
+As I initially developed the software on the IDE CodeBlocks, this directory contains exactly the same files as my project directory. 
+Therefore, if you also use this IDE, you can simply download this directory as it is and resume the development from there. Just remember 
+the terms of the **GNU GPL license**, under which is published this software.
 
 ### `/src`
 Now, if you don't use CodeBlocks, or you want the source files, you can find them in the directory `/src`.
